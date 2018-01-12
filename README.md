@@ -13,7 +13,7 @@ ssh-keygen -t rsa -f ~/.ssh/id_rsa.repo1 -C "your@email.com"
 
 3) edit (eg. with vim: vim ~/.ssh/config) and add the following:
 
-### Default Github
+
 Host github.com
         HostName github.com
         PreferredAuthentications publickey
