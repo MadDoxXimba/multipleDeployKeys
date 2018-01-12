@@ -34,3 +34,4 @@ Host github.com
  4) ssh-add ~/.ssh/id_rsa
  5) ssh-add ~/.ssh/id_rsa.repo1
  6) if error while ssh-add, do: eval `ssh-agent -s` and run steps 4 & 5 again
+ 7) ssh-add -l  to check if keys are running as expected
