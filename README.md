@@ -15,13 +15,19 @@ ssh-keygen -t rsa -f ~/.ssh/id_rsa.repo1 -C "your@email.com"
 
 
 Host github.com
+
         HostName github.com
+        
         PreferredAuthentications publickey
+        
         IdentityFile ~/.ssh/id_rsa
         
 Host github.com
+
         HostName github.com
+        
         PreferredAuthentications publickey
+        
         IdentityFile ~/.ssh/id_rsa.repo1
         
  4) ssh-add ~/.ssh/id_rsa
