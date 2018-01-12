@@ -14,7 +14,7 @@
 
 3) edit (eg. with vim: vim ~/.ssh/config) and add the following:
 
-
+### Default id_rsa
         Host github.com
 
                 HostName github.com
@@ -22,8 +22,8 @@
                 PreferredAuthentications publickey
 
                 IdentityFile ~/.ssh/id_rsa
-        
-        Host github.com
+### repo1 id_rsa        
+        Host github.com-repo1
 
                 HostName github.com
 
@@ -42,6 +42,9 @@
                 ssh-add ~/.ssh/id_rsa
                 ssh-add ~/.ssh/id_rsa.repo1
   9) Don't forget to add deploy keys on github repo (*.pub)
+  10) In clone root directory for project repo1, change/add repository to:
+                
+                git remote set-url origin git@github.com-repo1:MadDoxXimba/tp_ri.git
 
 ## Windows
 
