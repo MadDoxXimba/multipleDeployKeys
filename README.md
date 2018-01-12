@@ -7,6 +7,7 @@
 1) create ssh key by attributing the commiting user identification (eg. email)
 
 ssh-keygen -t rsa -f ~/.ssh/id_rsa -C "your@email.com"
+
 ssh-keygen -t rsa -f ~/.ssh/id_rsa.repo1 -C "your@email.com"
 
 2) in ~/.ssh  : create config file (touch config)
