@@ -45,6 +45,8 @@
   10) In clone root directory for project repo1, change/add repository to:
                 
                 git remote set-url origin git@github.com-repo1:MadDoxXimba/tp_ri.git
+  11) check if the key is working: ssh -T git@github.com-XXXX   where XXXX is repo1 in our scenario 
+
 
 ## Windows
 
