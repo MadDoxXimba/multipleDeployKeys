@@ -36,3 +36,9 @@
  6) if error while ssh-add, do: eval `ssh-agent -s` and run steps 4 & 5 again
  7) ssh-add -l  to check if keys are running as expected
  8) you might need to add ssh-add (key location) in ~/.bashrc for permanent change on shutdown/restart/etc...
+
+## Windows
+
+ 1) Install gitbash (https://desktop.github.com/)
+ 2) open gitbash cmd
+ 3) repeat same steps as for Linux
